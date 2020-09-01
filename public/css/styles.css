@@ -1,0 +1,103 @@
+html{
+   background: white;
+}
+
+h1{
+  font-family: 'Lexend Peta', sans-serif;
+  font-size: 50px;
+  color: cornflowerblue;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; 
+  border: cornflowerblue 2px solid ;
+  width: 500px;
+  padding: 2px;
+}
+img{
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+p{
+  color: cornflowerblue;
+  font-size: 20px;
+  font-family: cursive;
+  text-align: center;
+}
+.nav{
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  width: 300px;
+  border: 2px solid cornflowerblue;
+  margin-left: auto;
+  margin-right: auto; 
+}
+.link{
+  text-decoration: none;
+  margin: 10px;
+  padding: 5px;
+  color: cornflowerblue;
+}
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: cornflowerblue;
+  text-align: center;
+}
+input{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px cornflowerblue solid;
+  border-radius: 15px;
+  padding: 5px;
+  color: cadetblue;
+}
+button{
+  display: block;
+  padding:0.3em 1.2em;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5px;
+  border-radius:2em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  background-color:cornflowerblue ;
+  text-align:center;
+  transition: all 0.2s; 
+  cursor: pointer;
+}
+button:hover{
+  background-color:#4095c6;
+  }
+
+@media screen and (max-width: 640px) {
+  h1{
+    font-size: 30px;
+    width: 300px;
+  }
+  p{
+    font-size: 20px;
+  }
+  img{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+  }
+  .nav{
+    font-size: 25px;
+    width: 340px;
+  }
+  .link{
+    margin: 5px;
+  }
+}
